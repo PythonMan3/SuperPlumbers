@@ -1,0 +1,47 @@
+[FILE]
+tile_set.png
+[SIZE]
+16,16
+[SPRITE]
+AI,0,8,STA             # 土管の上側左
+AJ,0,9,STA             # 土管の土台左
+II,8,8,DECO            # 山の左上
+JI,9,8,DECO            # 山の上
+KI,10,8,DECO           # 山の右上
+IJ,8,9,DECO            # 山の左下
+JJ,9,9,DECO            # 山の下
+KJ,10,9,DECO           # 山の右下
+LJ,11,9,DECO           # 草の左
+MJ,12,9,DECO           # 草の中央
+NJ,13,9,DECO           # 草の右
+AU,0,20,DECO           # 雲の左上
+BU,1,20,DECO           # 雲の中央上
+CU,2,20,DECO           # 雲の右上
+LA,11,0,DECO           # 城の上1
+MA,12,0,DECO           # 城の上2
+NA,13,0,DECO           # 城の上3
+OA,14,0,DECO           # 城の上4
+LB,11,1,DECO           # 城の下1
+MB,12,1,DECO           # 城の下2
+NB,13,1,DECO,ENTER     # 城の下3
+QI,16,8,COL,POLE_HEAD  # ポール頭
+QJ,16,9,COL,POLE_BAR   # ポール棒
+BA,1,0,OBJ,BRICK       # レンガ
+YA,24,0,OBJ,QUEST_BOX  # はてなボックス
+ZA,25,0,OBJ            # はてなボックス
+aA,26,0,OBJ            # はてなボックス
+bA,27,0,OBJ            # はてなボックス
+AB,0,1,STA             # コンクリートブロック
+AA,0,0,STA             # フロアーブロック
+AV,0,21,DECO           # 雲の左下
+BV,1,21,DECO           # 雲の中央下
+CV,2,21,DECO           # 雲の右下
+Ac,1,0,OBJ,STAR        # レンガ(スターボックス)
+Bc,1,0,OBJ,TEN_COIN    # 10コインブロック
+Cc,24,0,OBJ,POWERUP    # はてなボックス(パワーアップアイテム)
+Dc,25,0,OBJ            # はてなボックス
+Ec,26,0,OBJ            # はてなボックス
+Fc,27,0,OBJ            # はてなボックス
+Gc,0,1,OBJ,ONE_UP      # 1UPキノコブロック
+BI,1,8,STA             # 土管の上側右
+BJ,1,9,STA             # 土管の土台右
